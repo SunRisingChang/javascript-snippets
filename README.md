@@ -1,6 +1,6 @@
 # javascript-snippets-by-mdn
 
-Javascript 代码段，数据来源 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
+JavaScript 代码段，数据来源 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript
 
 ## Using
 
