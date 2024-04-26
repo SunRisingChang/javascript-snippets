@@ -1,0 +1,47 @@
+{
+  "name": "javascript-snippets-by-mdn",
+  "displayName": "Javascript Snippets By MDN",
+  "description": "Javascript代码片段",
+  "version": "1.0.0",
+  "publisher": "SunRising",
+  "icon": "assets/logo.png",
+  "scripts": {
+    "out": "node src/out.js",
+    "build": "vsce package",
+    "update": "node src/update-snippets.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunRisingChang/javascript-snippets.git"
+  },
+  "author": "SunRising",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunRisingChang/javascript-snippets/issues"
+  },
+  "homepage": "https://github.com/SunRisingChang/javascript-snippets#readme",
+  "engines": {
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "cheerio": "1.0.0-rc.3",
+    "request": "^2.88.2",
+    "vsce": "^1.75.0"
+  }
+}
