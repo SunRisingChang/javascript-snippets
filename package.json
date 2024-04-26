@@ -1,8 +1,8 @@
 {
   "name": "javascript-snippets-by-mdn",
   "displayName": "JavaScript Snippets By MDN",
-  "description": "JavaScript代码片段",
-  "version": "1.0.1",
+  "description": "JavaScript 代码片段",
+  "version": "1.0.2",
   "publisher": "SunRising",
   "icon": "assets/logo.png",
   "scripts": {
